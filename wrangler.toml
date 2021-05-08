@@ -1,0 +1,12 @@
+# https://developers.cloudflare.com/workers/cli-wrangler/configuration
+
+name = ""
+type = "javascript"
+account_id = ""
+zone_id = ""
+route = ""
+workers_dev = true
+
+[build]
+upload.format = "service-worker"
+command = "yarn install && yarn build"
