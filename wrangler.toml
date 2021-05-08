@@ -9,4 +9,4 @@ workers_dev = true
 
 [build]
 upload.format = "service-worker"
-command = "yarn install && yarn build"
+command = "npm install && npm run build"
